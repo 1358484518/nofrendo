@@ -26,10 +26,11 @@ The controls are pretty obvious because the NES gamepad looks a lot like the Num
 ## Build the app
 
 To build this sample app, you will need to install the [embedded ARM toolchain](https://developer.arm.com/Tools%20and%20Software/GNU%20Toolchain) and [nwlink](https://www.npmjs.com/package/nwlink).
-最新版本下载地址：https://codeberg.org/Yaya-Cout/nofrendo/src/tag/v1.2.2
+
 
 ```shell
 brew install numworks/tap/arm-none-eabi-gcc node # Or equivalent on your OS
 npm install -g nwlink
 make clean && make build
 ```
+最新版本下载地址：https://codeberg.org/Yaya-Cout/nofrendo/src/tag/v1.2.2
